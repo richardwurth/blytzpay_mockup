@@ -15,15 +15,15 @@
                 <h4>Create Automated Event</h4>
                 <p>Name your event and select the object</p>
             </div>
-            <div class="left-text">
+            <div class="left-text non-selected">
                 <h4>Create Conditions</h4>
                 <p>Create the Conditions that will trigger the automation</p>
             </div>
-            <div class="left-text">
+            <div class="left-text non-selected">
                 <h4>Set Actions</h4>
                 <p>Create the actions that will happen based on the conditions created</p>
             </div>
-            <div class="left-text">
+            <div class="left-text non-selected">
                 <h4>Confirm and Create</h4>
                 <p>Make sure your automation looks correct and save it.</p>
             </div>
@@ -34,7 +34,31 @@
             <div class="three">3</div>
             <div class="four">4</div>
         </div>
-        <div class="right-side"></div>
+        <div class="right-side">
+        <div class="top-right-side">
+            <h1 class="title">Create a new automation</h1>
+            <div class="selectors">
+                <div class="event_name">
+                    <h2>What do you want to name this event?</h2>
+                    <input placeholder="Name" class="event_name_dropdown"></input>
+                </div>
+                <div class="object_event">
+                    <h2>Select the object this event is based on:</h2>
+                    <select class="object_event_dropdown">
+                        <option value="" disabled selected hidden>Object</option>
+                        <option value="0">A Selection</option>
+                    </select>
+                    <img class="i-icon" src="https://www.thesslstore.com/blog/wp-content/uploads/2017/05/circle-with-i-1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="bot-right-side">
+            <div class="navigation-buttons">
+                <button class="cancel">Cancel</button>
+                <button class="next">Next ></button>
+            </div>
+        </div>
+    </div>
     </div>
 </body>
 </html>
