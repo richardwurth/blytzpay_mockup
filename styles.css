@@ -46,7 +46,7 @@ p {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    font-family: Arial Rounded MT Bold;
+    font-family: 'Montserrat', sans-serif;
 }
 .one {
     width: 50px;
